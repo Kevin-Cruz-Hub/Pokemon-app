@@ -32,7 +32,7 @@ function Show(props) {
 			<div style={center}>
                 <h1 style={slogan}>Gotta Catch Em' All</h1>
                 <h2 style={poke}>{pokemon.name[0].toUpperCase()}{pokemon.name.slice(1)}</h2>
-                <img src={`https://img.pokemondb.net/artwork/${pokemon.imageURL}.jpg`} style={img}/>
+                <img src={`https://img.pokemondb.net/artwork/${pokemon.name}.jpg`} style={img}/>
             </div>
 		</main>
 	);
