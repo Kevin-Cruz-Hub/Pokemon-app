@@ -4,10 +4,12 @@ const pokemon = require("../models/pokemon");
 const center = {
     textAlign: 'center',
     backgroundColor: 'brown',
+    padding: '10px'
 }
 const poke = {
     color: 'white',
-    fontSize: '30px'
+    fontSize: '30px',
+    textDecoration: ' 1px double underline black'
 }
 const slogan = {
     fontSize: '50px',
@@ -17,8 +19,8 @@ const slogan = {
 const img = {
     borderRadius: '20%',
     margin: '10px',
-    border: '4px double black'
-
+    border: '4px double black',
+    boxShadow: '5px 10px 5px black'
 }
 function Show(props) {
 	const { pokemon } = props;
